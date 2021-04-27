@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#a4acc4 ;
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    font-size: 1.2rem;
+   
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #0056d898;
+    border-radius: 50px;
+
+}
+.body::-webkit-scrollbar-track{
+    background-color: #777;
+}
+
+.sidebar {
+    width:16%;
+    height: 100vh;
+    background-color: #191D2B;
+    position: fixed;
+    border-right: 1px solid #2e344e;
+}
+
+ .main-content{
+      width: 84%;
+      margin-left:16%;
+      background-color: #10121B;
+      min-height: 100vh;
+      background-image: url(../img/dots.svg);
+      position: relative;
+      display:grid;      
+ }
+ .content{
+     margin: 5rem 10rem;
+ }

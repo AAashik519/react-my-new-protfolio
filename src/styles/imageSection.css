@@ -1,0 +1,58 @@
+.imageSection{
+    display: flex;
+    margin-top: 50px;
+}
+
+.img{
+   width: 100%;
+   height: 50vh;
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.about-info{
+    margin-left: 2rem;
+    
+}
+.about-info h4  {
+    font-size: 2rem;
+    color: #fff!important;
+}
+.about-text{
+    padding: 1rem 0;
+}
+
+.about-details{
+    display: flex;
+}
+.about-details p{
+    padding: 0 .3rem;
+}
+.right-details-section{
+     margin-left: 30px;
+    color: aliceblue;
+ }
+ .name-style{
+    color: #037FFF;
+ }
+
+ .cv_btn{
+     padding: 12px 12px;
+     background-color: #037FFF;
+     border-radius: 6px;
+     outline: none;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+ margin-top: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+   
+ }
+ .cv_btn:hover{
+     background: #fff;
+     color: #037FFF;
+     font-weight: bolder;
+ }

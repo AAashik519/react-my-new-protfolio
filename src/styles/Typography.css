@@ -1,0 +1,53 @@
+.homepage{
+     
+     position:absolute;
+     top: 50%;
+     left:50%;
+     transform: translate(-50% ,-50%);
+     width: 80%;
+    
+
+}
+.hero-text{
+color:#fff;
+text-align: center;
+font-size: 3.6rem;
+}
+.hero-text span{
+    color:#037FFF
+}
+ .h-sub-text{
+     text-align:  justify;
+ }
+
+ .icons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    
+ }
+ .icons a{
+ 
+text-decoration: none;
+color: inherit;
+margin-top: 20px
+;
+ 
+ }
+
+  .icon{
+    font-size: 45px;
+     margin-right: 40px;
+     transition: all .3s ease-in-out;
+ }
+ 
+ .fb:hover{
+     color:  blue
+ }
+ .gh:hover{
+    color:rgba(212,45,212,.788);
+}
+.ln:hover{
+    color: #0077b5;
+}

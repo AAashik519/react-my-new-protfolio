@@ -1,0 +1,14 @@
+.Title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #fff;
+    position: relative
+}
+span{
+    color: #037FFF;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 4rem;
+    opacity: 0.07;
+}

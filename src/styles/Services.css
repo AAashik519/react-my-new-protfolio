@@ -1,0 +1,45 @@
+.Services{
+    width: 32%;
+}
+ 
+.service-section{
+    margin: 45px 0;
+    background-color:#191D2B;
+     border-left: 1px solid #2e344e;
+     border-right: 1px solid #2e344e;
+     border-top: 8px solid #2e344e;
+     border-bottom: 1px solid #2e344e;
+     transition: all .4s ease-in-out;
+    
+}
+.services-content{
+   padding: .5rem 1.2rem; 
+    
+}
+.service-section:hover{
+    border-top: 8px solid #037FFF;
+}
+.service-icon{}
+.s-titel{
+    font-size: 1.8rem;
+    font-size: bolder;
+    position: relative;
+    padding-bottom: 1rem ;
+    margin: 1rem 0;
+}
+.s-titel::after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 45%;
+height: .2rem;
+background-color: #2e344e;
+}
+.s-text{}
+.services-container{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
